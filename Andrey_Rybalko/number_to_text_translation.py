@@ -27,4 +27,4 @@ def get_number_text(number):
             return "Five"
     return "Ошибка при попытке преобразовать число в текст!"
 
-print(get_number_text(check_enter_value()))
+print("Соответсвуюшее слово:", get_number_text(check_enter_value()))
